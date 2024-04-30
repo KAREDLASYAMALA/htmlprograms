@@ -1,28 +1,49 @@
-# htmlprograms
-<!DOCtype html>
-<html>
-<head>
-<link href="C:\favicon\ssk cmpny.webp" rel="icon">
-<!--<img src="C:\favicon\ssk cmpny.webp" style="text-align:center"></img>-->
-<tittle style="background-color:blue;font-size:55px;border:5px solid red;" width="30px" height="40px"><marquee><i><b>CVDMPS</b></i></marquee>
-</tittle>
-<style>
-.body-bg{background: rgb(34,193,195);
-background: linear-gradient(10deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);}
-</style>
-</head>
-<body class="body-bg">
-<table style="background-color:red" width="20 height="90">
-<th>
-</table>
-<p style="color:green;font-size:40px;text-align:center"><b>SSK products</b></p>
-<ul><li>MOBILES</li>
-<li>FASHION</li>
-<li>ELECTRONICS</li>
-<li>HOME APPLIANCES</li>
-<li>BEAUTY PRODUTS</li>
-<li>DAILY USE</li>
-<li> BOOKS</li>
-<li>TOYS</li></ul>
-</body>
-</html>
+<DOCTYPE HTML>
+    <html>
+        <head>
+               <title> TABLE</title>  
+               <style >
+               table,th,td{
+                border :1px solid black;
+                border-collapse: collapse;
+               };
+            </style>
+       </head>
+        <body>
+         <table>
+        <thead>
+            <tr> 
+                <th> State of health</th>
+                <th colspan="2">Fasting value</th>
+                <th>After Remaining</th>
+            </tr>
+            <tr> 
+                <th>   </th>
+                <th>minimum</th>
+                <th>normal</th>
+                <th> 2 hours of eating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>
+            <tr>
+                <td>pre-diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>more than 126</td>
+                <td>Not applicable</td>
+                <td>more than 200</td>
+            </tr>
+        </tbody>
+        </table> 
+        </body>
+    </html>
