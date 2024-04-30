@@ -1,10 +1,10 @@
-<!DOC type html>
+<!DOCTYPE html>
 <html>
-<head><title>rain</title></head>
+<!--<head><title>rain</title></head>-->
 <body>
 <label>STUDENT PERSONAL DETAILS</label><ul></ul>
-<label>STUDENT NAME</label><ul></ul>
-<input type="text"placeholder="enter  your name"></input>
+<label for="name">STUDENT NAME</label><ul></ul>
+<input type="text" id="name" placeholder="enter  your name"></input>
 <label>CLASS</label><ul></ul>
 <!--<input type="text"placeholder="enter your class">-->
 <select>
@@ -27,11 +27,11 @@
 <input type="text"placeholder="enter your collage name"><ul></ul>
 <label>PARENTS</label><ul></ul>
 <label>FATHER</label>
-<input type="text"placeholder="enter your father name"><ul></ul>
+<input type="text" placeholder="enter your father name"><ul></ul>
 <label>FATHER OCCUPATION</label>
-<input type="text"placeholder="enter your father occupation"><ul></ul>
+<input type="text" placeholder="enter your father occupation"><ul></ul>
 <label>MOTHER</label>
-<input type="text"placeholder="enter your mother name"><ul></ul>
+<input type="text" placeholder="enter your mother name"><ul></ul>
 <label>MOTHER OCCUPATION</label>
 <input type="text"placeholder="enter your mother occupation"><ul></ul>
 <label>GENDER</label><ul></ul>
