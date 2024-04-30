@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>FORM</title>
-        <h1>FORM TAGS IN HTML</h1>
+       <!-- <title>FORM</title>
+        <h1>FORM TAGS IN HTML</h1>-->
 
     </head>
     <body>
-        <form>
+        <form action="">
             <lable for="name">TEXT</lable>
             <input type="text "  placeholder="text" id="name"  name="studentname"><br></br>
             <lable for="em">EMAIL</lable>
             <input type="email" placeholder="email" id="em"  name="studentemail"><br></br>
-            
             <lable for="bt">BUTTON</lable>
             <input type="button"  placeholder="button" id="bt"  name="button"><br></br>
             <lable for="ch">CHECKBOX</lable>
@@ -50,11 +49,7 @@
             <input type="url" placeholder="url" id="ul"  name="url"><br></br>
             <lable for="wk">WEEK</lable>
             <input type="week" placeholder="week" id="wk"  name="week"><br></br>
-        
             <input type="submit" value="submit">
-            
-
-
         </form>
     </body>
 </html>
