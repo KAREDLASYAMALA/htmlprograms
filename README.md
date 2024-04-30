@@ -1,54 +1,50 @@
 <!DOCTYPE html>
 <html>
-   <!--<head>
-        <title>FORM</title>
-        <h1>FORM TAGS IN HTML</h1>
-
-    </head>-->
+   
     <body>
-        <form action="">
-            <lable for="name">TEXT</lable>
+        <form>
+            <label for="name">TEXT</label>
             <input type="text "  placeholder="text" id="name"  name="studentname"><br></br>
-            <lable for="em">EMAIL</lable>
+            <label for="em">EMAIL</label>
             <input type="email" placeholder="email" id="em"  name="studentemail"><br></br>
             
-            <lable for="bt">BUTTON</lable>
+            <label for="bt">BUTTON</label>
             <input type="button"  placeholder="button" id="bt"  name="button"><br></br>
-            <lable for="ch">CHECKBOX</lable>
+            <label for="ch">CHECKBOX</label>
             <input type="checkbox" placeholder="checkbox"  id="ch"  name="checkbox"><br></br>
-            <lable for="cl">COLOR</lable>
+            <label for="cl">COLOR</label>
             <input type="color" placeholder="color"  id="cl"  name="color"><br></br>
-            <lable for="dt">DATE</lable>
+            <label for="dt">DATE</label>
             <input type="date" placeholder="date"  id="dt"  name="date"><br></br>
-            <lable for="dtl">DATETIMELOCAL</lable>
+            <label for="dtl">DATETIMELOCAL</label>
             <input type="datetime-local"  placeholder="datetime" id="dtl"  name="datetime"><br></br>
-            <lable for="fl">FILE</lable>
+            <label for="fl">FILE</label>
             <input type="file"  placeholder="file" id="fl"  name="file"><br></br>
-            <lable for="hi">HIDDEN</lable>
+            <label for="hi">HIDDEN</label>
             <input type="hidden" placeholder="hidden"  id="hi"  name="hidden"><br></br>
-            <lable for="im">IMAGE</lable>
+            <label for="im">IMAGE</label>
             <input type="image"  placeholder="image" id="im"  name="image"><br></br>
-            <lable for="mn">MONTH</lable>
+            <label for="mn">MONTH</label>
             <input type="month"  placeholder="month" id="mn"  name="month"><br></br>
-            <lable for="nm">NUMBER</lable>
+            <label for="nm">NUMBER</label>
             <input type="number"  placeholder="number" id="nm"  name="number"><br></br>
-            <lable for="ps">PASSWORD</lable>
+            <label for="ps">PASSWORD</label>
             <input type="password" placeholder="password"  id="ps"  name="password"><br></br>
-            <lable for="rd">RADIO</lable>
+            <label for="rd">RADIO</label>
             <input type="radio"  placeholder="radio" id="rd"  name="radio"><br></br>
-            <lable for="rn">RANGE</lable>
+            <label for="rn">RANGE</label>
             <input type="range"  placeholder="range" id="rn"  name="range"><br></br>
-            <lable for="rst">RESET</lable>
+            <label for="rst">RESET</label>
             <input type="reset"  placeholder="reset" id="rst"  name="reset"><br></br>
-            <lable for="se">SEARCH</lable>
+            <label for="se">SEARCH</label>
             <input type="search"  placeholder="search" id="se"  name="search"><br></br>
-            <lable for="tl">TEL</lable>
+            <label for="tl">TEL</label>
             <input type="tel" placeholder="tel" id="tl"  name="tel"><br></br>
-            <lable for="tm">TIME</lable>
+            <label for="tm">TIME</label>
             <input type="time"  placeholder="time" id="tm"  name="time"><br></br>
-            <lable for="ul">URL</lable>
+            <label for="ul">URL</label>
             <input type="url" placeholder="url" id="ul"  name="url"><br></br>
-            <lable for="wk">WEEK</lable>
+            <label for="wk">WEEK</label>
             <input type="week" placeholder="week" id="wk"  name="week"><br></br>
         
             <input type="submit" value="submit">
