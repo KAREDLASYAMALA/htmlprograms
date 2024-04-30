@@ -1,6 +1,6 @@
 <DOCTYPE html>
     <html>
-        <head>
+       <!-- <head>
                <title> TABLE</title>  
                <style >
                table,th,td{
@@ -8,7 +8,7 @@
                 border-collapse: collapse;
                };
             </style>
-       </head>
+       </head>-->
         <body>
          <table>
         <thead>
